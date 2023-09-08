@@ -14,5 +14,5 @@ Your task is to write a simple script using Typescript that utilises this API to
 Please clone the repo locally and implement your solution. When you are satisfied
 
 1. Add all your changes to a single commit.
-2. Use `git format-patch --prefix= HEAD~` to create a patch.
+2. Use `git format-patch -1 HEAD` to create a patch.
 3. Submit that patch to us via email.
