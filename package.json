@@ -1,0 +1,21 @@
+{
+  "name": "take-home",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "main": "npm run build && npm run execute",
+    "build": "tsc",
+    "execute": "node dist/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.5.0",
+    "typescript": "^5.2.2"
+  },
+  "devDependencies": {
+    "@tsconfig/recommended": "^1.0.2"
+  }
+}
